@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/database/MatchRepository.java
 package database;
 
 import domain.model.Coordinate;
@@ -96,4 +95,3 @@ public class MatchRepository {
         return pstmt.executeQuery();
     }
 }
-EOF

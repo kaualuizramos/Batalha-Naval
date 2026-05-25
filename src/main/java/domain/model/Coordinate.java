@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/domain/model/Coordinate.java
 package domain.model;
 
 import java.util.Objects;
@@ -51,4 +50,3 @@ public class Coordinate {
         return Objects.hash(x, y);
     }
 }
-EOF

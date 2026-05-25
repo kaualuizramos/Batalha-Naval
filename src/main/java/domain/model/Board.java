@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/domain/model/Board.java
 package domain.model;
 
 import java.util.ArrayList;
@@ -67,4 +66,3 @@ public class Board {
         return (int) fleet.stream().filter(s -> !s.isSunk()).count();
     }
 }
-EOF

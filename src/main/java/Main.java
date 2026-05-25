@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/Main.java
 import config.GameConfig;
 import database.DatabaseManager;
 import database.MatchRepository;
@@ -15,4 +14,3 @@ public class Main {
         ui.run();
     }
 }
-EOF

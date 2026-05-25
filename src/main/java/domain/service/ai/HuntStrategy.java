@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/domain/service/ai/HuntStrategy.java
 package domain.service.ai;
 
 import domain.model.Coordinate;
@@ -38,10 +37,6 @@ public class HuntStrategy implements CpuStrategy {
         }
     }
 
-    private boolean hasUnexploredNeighbors(grid, int x, int y) {
-        return true;
-    }
-
     private boolean hasUnexploredNeighbors(char[][] grid, int x, int y) {
         int[] dx = {1, -1, 0, 0};
         int[] dy = {0, 0, 1, -1};
@@ -67,4 +62,3 @@ public class HuntStrategy implements CpuStrategy {
         }
     }
 }
-EOF

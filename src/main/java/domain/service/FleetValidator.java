@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/domain/service/FleetValidator.java
 package domain.service;
 
 import domain.model.Board;
@@ -46,4 +45,3 @@ public class FleetValidator {
         return true;
     }
 }
-EOF

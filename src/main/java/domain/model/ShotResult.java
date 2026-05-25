@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/domain/model/ShotResult.java
 package domain.model;
 
 public class ShotResult {
@@ -18,4 +17,3 @@ public class ShotResult {
     public Coordinate getCoordinate() { return coordinate; }
     public String getShipName() { return shipName; }
 }
-EOF

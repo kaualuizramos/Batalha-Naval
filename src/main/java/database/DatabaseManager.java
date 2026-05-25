@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/database/DatabaseManager.java
 package database;
 
 import config.GameConfig;
@@ -35,4 +34,3 @@ public class DatabaseManager {
         }
     }
 }
-EOF

@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/ui/TerminalInterface.java
 package ui;
 
 import config.GameConfig;
@@ -112,4 +111,3 @@ public class TerminalInterface {
         } catch (Exception e) { e.printStackTrace(); }
     }
 }
-EOF

@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/domain/model/Ship.java
 package domain.model;
 
 import java.util.ArrayList;
@@ -38,4 +37,3 @@ public class Ship {
         return hp == 0;
     }
 }
-EOF

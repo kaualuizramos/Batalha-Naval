@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/domain/service/GameEngine.java
 package domain.service;
 
 import config.GameConfig;
@@ -100,4 +99,3 @@ public class GameEngine {
         return res;
     }
 }
-EOF

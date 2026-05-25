@@ -1,0 +1,15 @@
+domain/model/ShotResult$Type.class
+domain/service/FleetValidator$ValidationResult.class
+domain/model/Coordinate.class
+domain/service/ai/CpuStrategy.class
+domain/model/Ship.class
+domain/service/ai/HuntStrategy.class
+ui/TerminalInterface.class
+Main.class
+domain/service/GameEngine.class
+database/DatabaseManager.class
+domain/service/FleetValidator.class
+domain/model/Board.class
+config/GameConfig.class
+database/MatchRepository.class
+domain/model/ShotResult.class

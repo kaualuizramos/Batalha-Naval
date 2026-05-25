@@ -1,4 +1,3 @@
-cat << 'EOF' > src/main/java/config/GameConfig.java
 package config;
 
 import java.io.InputStream;
@@ -66,4 +65,3 @@ public class GameConfig {
     public String getGameSeed() { return gameSeed; }
     public String getGameMode() { return gameMode; }
 }
-EOF
